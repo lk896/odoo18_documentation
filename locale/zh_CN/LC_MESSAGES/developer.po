@@ -18,35 +18,35 @@ msgstr ""
 
 #: ../../content/developer.rst:9
 msgid "Developer"
-msgstr ""
+msgstr "开发人员"
 
 #: ../../content/developer.rst:11
 msgid "Learn through tutorials and get help using reference guides."
-msgstr ""
+msgstr "通过教程学习并使用参考指南获取帮助。"
 
 #: ../../content/developer/glossary.rst:5
 msgid "Glossary"
-msgstr ""
+msgstr "词汇表"
 
 #: ../../content/developer/glossary.rst:8
 msgid "external id"
-msgstr ""
+msgstr "外部 ID"
 
 #: ../../content/developer/glossary.rst:9
 msgid "external identifier"
-msgstr ""
+msgstr "外部标识符"
 
 #: ../../content/developer/glossary.rst:10
 msgid "external identifiers"
-msgstr ""
+msgstr "外部标识符"
 
 #: ../../content/developer/glossary.rst:12
 msgid "string identifier stored in ``ir.model.data``, can be used to refer to a record regardless of its database identifier during data imports or export/import roundtrips."
-msgstr ""
+msgstr "存储在 ''ir.model.data'' 中的字符串标识符，在数据导入或导出/导入往返过程中，无论其数据库标识符如何，都可以用于引用记录。"
 
 #: ../../content/developer/glossary.rst:16
 msgid "External identifiers are in the form :samp:`{module}.{id}` (e.g. ``account.invoice_graph``). From within a module, the :samp:`{module}.` prefix can be left out."
-msgstr ""
+msgstr "外部标识符的格式为 ：samp：'{module}。{id}' （例如 ''account.invoice_graph''）。在模块中，可以省略 ：samp：'{module}.' 前缀。"
 
 #: ../../content/developer/glossary.rst:20
 msgid "Sometimes referred to as \"xml id\" or ``xml_id`` as XML-based :ref:`reference/data` make extensive use of them."
