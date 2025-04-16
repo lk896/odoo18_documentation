@@ -50,163 +50,163 @@ msgstr "外部标识符的格式为 ：samp：'{module}。{id}' （例如 ''acco
 
 #: ../../content/developer/glossary.rst:20
 msgid "Sometimes referred to as \"xml id\" or ``xml_id`` as XML-based :ref:`reference/data` make extensive use of them."
-msgstr ""
+msgstr "有时也称为“xml id”或 xml_id，因为基于 XML 的 :ref:reference/data 广泛使用它们。"
 
 #: ../../content/developer/glossary.rst:22
 msgid "format string"
-msgstr ""
+msgstr "字符串格式"
 
 #: ../../content/developer/glossary.rst:24
 msgid "inspired by `jinja variables`_, format strings allow more easily mixing literal content and computed content (expressions): content between ``{{`` and ``}}`` is interpreted as an expression and evaluated, other content is interpreted as literal strings and displayed as-is"
-msgstr ""
+msgstr "受 'jinja variables'_ 的启发，格式字符串允许更轻松地混合文本内容和计算内容（表达式）：''{{'' 和 ''}}'' 之间的内容被解释为表达式并计算，其他内容被解释为文本字符串并按原样显示"
 
 #: ../../content/developer/glossary.rst:29
 msgid "GIS"
-msgstr ""
+msgstr "地理信息系统"
 
 #: ../../content/developer/glossary.rst:30
 msgid "Geographic Information System"
-msgstr ""
+msgstr "地理信息系统"
 
 #: ../../content/developer/glossary.rst:32
 msgid "any computer system or subsystem to capture, store, manipulate, analyze, manage or present spatial and geographical data."
-msgstr ""
+msgstr "用于捕获、存储、作、分析、管理或呈现空间和地理数据的任何计算机系统或子系统。"
 
 #: ../../content/developer/glossary.rst:34
 msgid "minified"
-msgstr ""
+msgstr "缩小"
 
 #: ../../content/developer/glossary.rst:35
 msgid "minification"
-msgstr ""
+msgstr "缩小"
 
 #: ../../content/developer/glossary.rst:37
 msgid "process of removing extraneous/non-necessary sections of files (comments, whitespace) and possibly recompiling them using equivalent but shorter structures (`ternary operator`_ instead of ``if/else``) in order to reduce network traffic"
-msgstr ""
+msgstr "删除文件中多余/非必要部分（注释、空白）并可能使用等效但更短的结构（使用 三元运算符_ 而不是 if/else）重新编译它们，以减少网络流量的过程。"
 
 #: ../../content/developer/howtos.rst:6
 msgid "How-to guides"
-msgstr ""
+msgstr "操作指南"
 
 #: ../../content/developer/howtos/accounting_localization.rst:4
 msgid "Accounting localization"
-msgstr ""
+msgstr "会计本地化"
 
 #: ../../content/developer/howtos/accounting_localization.rst:8
 msgid "This tutorial requires knowledge about how to build a module in Odoo (see :doc:`../tutorials/getting_started`)."
-msgstr ""
+msgstr "本教程需要您具备在 Odoo 中构建模块的相关知识（请参阅 :doc:../tutorials/getting_started）。"
 
 #: ../../content/developer/howtos/accounting_localization.rst:13
 msgid "Installation procedure"
-msgstr ""
+msgstr "安装程序"
 
 #: ../../content/developer/howtos/accounting_localization.rst:15
 msgid "On installing the `account <https://github.com/odoo/odoo/blob/17.0/addons/account>`_ module, the localization module corresponding to the country code of the company is installed automatically. In case of no country code set or no localization module found, the `l10n_generic_coa <https://github.com/odoo/odoo/blob/17.0/addons/l10n_generic_coa>`_ (US) localization module is installed by default. Check `post init hook <https://github.com/odoo/odoo/blob/17.0/addons/account/__init__.py>`_ for details."
-msgstr ""
+msgstr "安装 account <https://github.com/odoo/odoo/blob/17.0/addons/account>_ 模块时，将自动安装与公司国家代码对应的本地化模块。如果未设置国家代码或未找到本地化模块，则默认安装 l10n_generic_coa <https://github.com/odoo/odoo/blob/17.0/addons/l10n_generic_coa>_ (美国) 本地化模块。有关详细信息，请查看 post init hook <https://github.com/odoo/odoo/blob/17.0/addons/account/__init__.py>_。"
 
 #: ../../content/developer/howtos/accounting_localization.rst:19
 msgid "For example, `l10n_ch <https://github.com/odoo/odoo/blob/17.0/addons/l10n_ch>`_ will be installed if the company has ``Switzerland`` as country."
-msgstr ""
+msgstr "例如，如果公司国家设置为 Switzerland（瑞士），则会安装 l10n_ch <https://github.com/odoo/odoo/blob/17.0/addons/l10n_ch>_ 模块。"
 
 #: ../../content/developer/howtos/accounting_localization.rst:22
 msgid "Building a localization module"
-msgstr ""
+msgstr "构建本地化模块"
 
 #: ../../content/developer/howtos/accounting_localization.rst:24
 msgid "The structure of a basic ``l10n_XX`` module may be described with the following :file:`__manifest__.py` file:"
-msgstr ""
+msgstr "一个基本的 l10n_XX 模块的结构可以通过以下 :file:__manifest__.py 文件来描述："
 
 #: ../../content/developer/howtos/accounting_localization.rst:45
 msgid "Your worktree should look like this"
-msgstr ""
+msgstr "你的工作树应该像这样："
 
 #: ../../content/developer/howtos/accounting_localization.rst:67
 msgid "In the first file :file:`models/template_xx.py`, we set the name for the chart of accounts along with some basic fields."
-msgstr ""
+msgstr "在第一个文件 :file:models/template_xx.py 中，我们为会计科目表设置名称以及一些基本字段。"
 
 #: ../../content/developer/howtos/accounting_localization.rst:70
 msgid ":doc:`Chart Template References </developer/reference/standard_modules/account>`"
-msgstr ""
+msgstr ":doc:`会计模板参考 </developer/reference/standard_modules/account>`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:73
 msgid "`addons/l10n_be/models/template_be.py <https://github.com/odoo/odoo/blob/17.0/addons/l10n_be/models/template_be.py>`_"
-msgstr ""
+msgstr "`addons/l10n_be/models/template_be.py <https://github.com/odoo/odoo/blob/17.0/addons/l10n_be/models/template_be.py>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:83
 msgid "Chart of Accounts"
-msgstr ""
+msgstr "会计科目表"
 
 #: ../../content/developer/howtos/accounting_localization.rst:86
 msgid "Account tags"
-msgstr ""
+msgstr "账户标签"
 
 #: ../../content/developer/howtos/accounting_localization.rst:89
 msgid ":ref:`Account Tag References <reference/account_account_tag>`"
-msgstr ""
+msgstr ":ref:`账户标签参考 <reference/account_account_tag>`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:91
 msgid "Tags are a way to sort accounts. For example, imagine you want to create a financial report having multiple lines but you have no way to find a rule to dispatch the accounts according to their ``code``. The solution is the usage of tags, one for each report line, to filter accounts like you want."
-msgstr ""
+msgstr "标签是一种对账户进行分类的方式。例如，假设你想创建一份包含多行的财务报告，但无法根据账户的 code（代码）找到分配账户的规则。解决方法是使用标签，每条报告行对应一个标签，以便按照你的需求筛选账户。"
 
 #: ../../content/developer/howtos/accounting_localization.rst:95
 msgid "Put the tags in the :file:`data/account_account_tag_data.xml` file."
-msgstr ""
+msgstr "将标签放入 :file:data/account_account_tag_data.xml 文件中。"
 
 #: ../../content/developer/howtos/accounting_localization.rst:98
 msgid "`addons/l10n_lt/data/template/account.account-lt.csv <https://github.com/odoo/odoo/blob/17.0/addons/l10n_lt/data/template/account.account-lt.csv>`_"
-msgstr ""
+msgstr "`addons/l10n_lt/data/template/account.account-lt.csv <https://github.com/odoo/odoo/blob/17.0/addons/l10n_lt/data/template/account.account-lt.csv>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:106
 msgid "Accounts"
-msgstr ""
+msgstr "账户"
 
 #: ../../content/developer/howtos/accounting_localization.rst:109
 msgid ":ref:`Account References <reference/account_account>`"
-msgstr ""
+msgstr ":ref:`账户参考 <reference/account_account>`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:110
 msgid ":doc:`/applications/finance/accounting/get_started/chart_of_accounts`"
-msgstr ""
+msgstr ":doc:`/applications/finance/accounting/get_started/chart_of_accounts`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:112
 msgid "Obviously, :guilabel:`Chart of Accounts` cannot exist without :guilabel:`Accounts`. You need to specify them in :file:`data/account.account.template.csv`."
-msgstr ""
+msgstr "显然，:guilabel:`会计科目表` 离不开 :guilabel:`账户`。你需要在 :file:data/account.account.template.csv 文件中指定它们。"
 
 #: ../../content/developer/howtos/accounting_localization.rst:115
 msgid "`addons/l10n_ch/data/template/account.account-ch.csv <https://github.com/odoo/odoo/blob/17.0/addons/l10n_ch/data/template/account.account-ch.csv>`_"
-msgstr ""
+msgstr "`addons/l10n_ch/data/template/account.account-ch.csv <https://github.com/odoo/odoo/blob/17.0/addons/l10n_ch/data/template/account.account-ch.csv>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:124
 msgid "Avoid the usage of `asset_cash` ``account_type``! Indeed, the bank & cash accounts are created directly at the installation of the localization module and then, are linked to an ``account.journal``."
-msgstr ""
+msgstr "避免使用 asset_cash 类型的 account_type！实际上，银行和现金账户会在本地化模块安装时直接创建，随后会与一个 account.journal 相关联。"
 
 #: ../../content/developer/howtos/accounting_localization.rst:126
 msgid "Only one account of type payable/receivable is enough for the generic case.  We need to define a PoS receivable account as well however. (linked in the CoA)"
-msgstr ""
+msgstr "对于一般情况，只有一个应付/应收类型的账户就足够了。然而，我们还需要定义一个 PoS（销售点）应收账户（在会计科目表中关联）。"
 
 #: ../../content/developer/howtos/accounting_localization.rst:127
 msgid "Don't create too many accounts: 200-300 is enough. But mostly, we try to find a good balance where the CoA needs minimal adapting for most companies afterwards."
-msgstr ""
+msgstr "不要创建过多的账户：200-300个就足够了。但最重要的是，我们需要找到一个良好的平衡点，使得会计科目表在大多数情况下只需最少的调整即可适配各类公司。"
 
 #: ../../content/developer/howtos/accounting_localization.rst:131
 msgid "Account groups"
-msgstr ""
+msgstr "账户组"
 
 #: ../../content/developer/howtos/accounting_localization.rst:134
 msgid ":ref:`Account Group References <reference/account_group>`"
-msgstr ""
+msgstr ":ref:`账户组参考 <reference/account_group>`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:136
 msgid "Account groups allow describing the hierarchical structure of the chart of accounts. The filter needs to be activated in the report and then when you decollapse into journal entries it will show the parents of the account."
-msgstr ""
+msgstr "账户组用于描述会计科目表的层级结构。需要在报表中激活该过滤器，随后当您展开到日记账分录时，它将显示该账户的上级账户。"
 
 #: ../../content/developer/howtos/accounting_localization.rst:138
 msgid "It works with the prefix *start*/*end*, so every account where the code starts with something between *start* and *end* will have this ``account.group`` as the parent group.  Furthermore, the account groups can have a parent account group as well to form the hierarchy."
-msgstr ""
+msgstr "它通过前缀 start /end 来工作，因此所有代码介于 start 和 end 之间的账户都会将此 account.group 作为其父组。此外，账户组还可以拥有一个父级账户组，以形成层级结构。"
 
 #: ../../content/developer/howtos/accounting_localization.rst:142
 msgid "`addons/l10n_il/data/template/account.group-il.csv <https://github.com/odoo/odoo/blob/17.0/addons/l10n_il/data/template/account.group-il.csv>`_"
-msgstr ""
+msgstr "addons/l10n_il/data/template/account.group-il.csv <https://github.com/odoo/odoo/blob/17.0/addons/l10n_il/data/template/account.group-il.csv>`_"
 
 #: ../../../odoo/addons/l10n_il/data/template/account.group-il.csv:1
 #: ../../content/developer/howtos/website_themes/building_blocks.rst:444
